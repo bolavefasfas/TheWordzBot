@@ -5,4 +5,5 @@ googlesearch_python==1.0.1
 cowsay==4.0
 password_generator==0.1.0
 PyDictionary==2.0.1
-telegram==0.0.1
+random-password-generator
+
