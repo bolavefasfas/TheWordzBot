@@ -17,3 +17,6 @@ Copyright (C) 2020-2026 by <a href="https://github.com/raveen-2003">raveen-2003@
 DONATE: <a href="https://upayi.me/raveen-2003@axl">BUY US A COFFEE</a>
 
 CONTACT DEV : <a href="https://t.me/im_raveen">RAVEEN</a>
+
+DEPLOY YOUR OWN BOT ; [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/raveen-2003/TheWordzBot)
+
