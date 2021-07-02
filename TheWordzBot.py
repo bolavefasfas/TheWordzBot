@@ -152,12 +152,12 @@ def dictonary_f(update , context):
 def google(update , context):
     context.bot.send_chat_action(chat_id=update.effective_chat.id, action=telegram.ChatAction.TYPING)
     update.message.reply_text(reply_to_message_id=update.message.message_id, text= 'please wait ! processing', parse_mode='html')
-    search_text = update.message.reply_to_message.text
+    
     search_txt_args = context.args
     txt_args_got = str(search_txt_args).split(":")[0].strip().replace("'", "").replace(",", "").replace("[",
                                                                                                                    "").replace(
         "]", "")
-    results = search(search_text)
+    r
     results = search(txt_args_got)
     update.message.reply_text(results)
 
